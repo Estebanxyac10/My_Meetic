@@ -1,0 +1,3 @@
+This project was the perfect opportunity for me to learn how to use AJAX requests, jQuery...
+
+Result: 11/25
