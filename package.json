@@ -1,0 +1,25 @@
+{
+  "name": "w-php-501-lil-1-1-mymeetic-esteban.chiquet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpitechWebAcademiePromo2025/W-PHP-501-LIL-1-1-mymeetic-esteban.chiquet.git"
+  },
+  "author": "esteban.chiquet@epitech.eu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpitechWebAcademiePromo2025/W-PHP-501-LIL-1-1-mymeetic-esteban.chiquet/issues"
+  },
+  "homepage": "https://github.com/EpitechWebAcademiePromo2025/W-PHP-501-LIL-1-1-mymeetic-esteban.chiquet#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9"
+  }
+}

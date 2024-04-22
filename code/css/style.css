@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    top: 80px;
+    left: 0;
+    background-color: #FCE4EC;
+    background-image: url("/assets/img/png/background0.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}

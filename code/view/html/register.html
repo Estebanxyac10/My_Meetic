@@ -1,0 +1,71 @@
+<body>
+    <div id="register__modal">
+        <button id="register__close">X</button>
+        <form id="register__form">
+            <h1>Register</h1>
+
+            <div class="register__content">
+                <div class="register__input">
+                    <label for="lastname__register">Lastname</label>
+                    <input type="text" id="lastname__register" name="lastname__register" autocomplete="on" required>
+                </div>
+
+                <div class="register__input">
+                    <label for="firstname__register">Firstname</label>
+                    <input type="text" id="firstname__register" name="firstname__register" autocomplete="on" required>
+                </div>
+            </div>
+
+            <div class="register__content">
+                <div class="register__input">
+                    <label for="birthdate__register">Birthdate</label>
+                    <input type="date" id="birthdate__register" name="birthdate__register" autocomplete="on" required>
+                </div>
+
+                <div class="register__input">
+                    <label for="gender__register">Gender</label>
+                    <select id="gender__register" name="gender__register">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="register__content">
+                <div class="register__input">
+                    <label for="city__register">City</label>
+                    <input type="text" id="city__register" name="city__register" autocomplete="on" required>
+                </div>
+
+                <div class="register__input">
+                    <fieldset>
+                        <legend>Hobbies</legend>
+                        <div id="register__checkbox">
+
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="register__content">
+                <div class="register__input">
+                    <label for="email__register">E-mail</label>
+                    <input type="email" id="email__register" name="email__register" autocomplete="on" required>
+                </div>
+
+                <div class="register__input">
+                    <label for="password__register">Password</label>
+                    <input type="password" id="password__register" name="password__register" autocomplete="on" required>
+                </div>
+            </div>
+
+            <div class="register__button">
+                <button type="submit">Register</button>
+            </div>
+            <div id="verify__register"></div>
+        </form>
+    </div>
+    <script src="code/view/javascript/register.js"></script>
+    <script src="code/view/javascript/hobby.js"></script>
+</body>

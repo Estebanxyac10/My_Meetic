@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meetic - Manage my account</title>
+
+    <link rel="icon" href="../../../assets/icon/favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="/code/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/code/css/style_manage.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.0.0/iconify-icon.min.js"></script>
+
+    <script src="/code/view/javascript/manage.js"></script>
+</head>
+
+<body>
+    <button id="manage__close">X</button>
+    <div id="manage__content">
+        <h1>My profile</h1>
+        <div id="manage__content-infos">
+
+        </div>
+        <form id="changeMail">
+            <input type="email" id="changeMailInput" name="changeMailInput" autocomplete="on" required>
+            <button id="change__mail"><iconify-icon icon='mdi:edit'></iconify-icon> | Change e-mail</button>
+        </form>
+        <form id="changePass">
+            <input type="text" id="changePassInput" name="changePassInput" autocomplete="on" vi required>
+            <button id="change__pass"><iconify-icon icon='mdi:edit'></iconify-icon> | Change password</button>
+        </form>
+        <form id="delete">
+            <form action="" method="post" id="delete">
+                <button type="submit" name="delete__account" id="delete__account"><iconify-icon
+                        icon='mdi:delete'></iconify-icon> | Delete account</button>
+            </form>
+
+    </div>
+</body>
+
+</html>

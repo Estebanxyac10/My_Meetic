@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#manage__close {
+    padding: 15px 20px;
+    position: absolute;
+    top: -80px;
+    left: 25px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translateY(50%);
+}
+
+#manage__close:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+#manage__content {
+    width: 50%;
+    margin-top: 20px;
+    padding: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+#manage__content h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#manage__content-infos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+#manage__content-infos p {
+    width: 100%;
+    margin: 0 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 1.2rem;
+}
+
+button {
+    margin: 5px 10px 0 10px;
+    padding: 5px 10px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+button iconify-icon {
+    font-size: 1.2rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
